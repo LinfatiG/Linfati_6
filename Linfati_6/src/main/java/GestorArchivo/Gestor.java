@@ -52,7 +52,7 @@ public class Gestor {
     public void agregarArray() {
         String[] infoCelular = separarTelefonos(leerArchivo("celulares.csv"));
         int cant = (infoCelular.length - 2) / 2; //Se obtiene la cantidad de celulares en el archivo csv
-        System.out.println("La cantidad de celulares es: " + cant);
+        System.out.println("Orden normal");
         System.out.println();
 
         for (int i = 0; i < cant; i++) {
